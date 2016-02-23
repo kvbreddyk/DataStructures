@@ -1,7 +1,11 @@
 package com.vijay.algorithms.ds.tree;
 
-public class TreeNode<T> {
-	public T           data;
-	public TreeNode<T> left;
-	public TreeNode<T> right;
+public class TreeNode {
+	public int       data;
+	public TreeNode left;
+	public TreeNode right;
+	
+	public TreeNode(int d){
+		this.data = d;
+	}
 }
